@@ -276,7 +276,8 @@ app.delete('/allBuyers/:id', async (req, res) => {
 
 
   // verify user 
-
+/* Add some thing */
+/* Add some thing */
   app.put('/allSeller/:id', async (req, res) => {
     const id = req.params.id;
     const filter = { _id: ObjectId(id) }
